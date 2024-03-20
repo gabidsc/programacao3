@@ -72,27 +72,30 @@
                 background-color: var(--botao-ativo);
                 border-bottom: 4px solid var(--verde);
             }
-            const botoes = document.querySelectorAll(".botao");
-            console.log(botoes)
-            botoes[i].onclick = function(){
+            }
+        }
+    .const botoes = document.querySelectorAll(".botao");
+    .console.log(botoes)
+    .botoes[i].onclick = function(){
     
                 botoes[i].classList.add(“ativo”);
             }
             for(let j=0;j<botoes.length;j++){
                 botoes[j].classList.remove("ativo");
      }
-     const botoes = document.querySelectorAll(".botao");
+    
+     .const botoes = document.querySelectorAll(".botao");
 
-     for(let i=0;i <botoes.length;i++){
+     .for(let i=0;i <botoes.length;i++){
          botoes[i].onclick = function(){
      
              for(let j=0;j<botoes.length;j++){
-                 botoes[j].classList.remove("ativo");
+              botoes[j].classList.remove("ativo");
              }
      
-             botoes[i].classList.add("ativo");
+             .botoes[i].classList.add("ativo");
          }
      }
                                              
-            }
+
                                                                             
